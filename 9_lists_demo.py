@@ -9,6 +9,7 @@ for expense in expenses:
     summ = summ + expense
 
 print("The total expense you spent this week is $", round(summ, 2), sep="")
+# round(summ, 2) -> this changes 199.26999999999998 to 199.27, it rounds the number to 2 decimal places.)
 
 
 ##another way
