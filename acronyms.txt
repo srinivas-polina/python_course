@@ -1,0 +1,15 @@
+API - Application Programming Interface
+SDK - Software Development Kit
+IDE - Integrated Development Environment
+OOP - Object-Oriented Programming
+DBMS - Database Management System
+SQL - Structured Query Language
+CI - Continuous Integration
+CD - Continuous Delivery / Continuous Deployment
+MVC - Model View Controller
+REST - Representational State Transfer
+JSON - JavaScript Object Notation
+XML - Extensible Markup Language
+HTTP - Hypertext Transfer Protocol
+HTTPS - Hypertext Transfer Protocol Secure
+CRUD - Create Read Update Delete
