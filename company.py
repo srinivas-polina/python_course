@@ -1,5 +1,5 @@
 #since we want our compny class to have access to the Employee class, we will need to import it.
-from EmployeeClassDemo import Employee
+from employee import Employee, SalaryEmployee, HourlyEmployee, CommisionEmployee
 
 class Company():
     def __init__(self):
@@ -11,7 +11,7 @@ class Company():
     def display_employees(self):
         print("Current Employees in the Company: ")
         for i in self.employees:
-            print(i.fname, i.lname, i.salary)
+            print(i.fname, i.lname)
         print("____________________")
     def pay_employee(self):
         print("Paying Employees:")
@@ -24,11 +24,11 @@ def main():
     #creating a company object
     my_company = Company()
 
-    employee1 = Employee("John", "Smith", 52000)
+    employee1 = SalaryEmployee("John", "Smith", 50000)
     my_company.add_employee(employee1)
-    employee2 = Employee("Lee", "Johnson", 25000)
+    employee2 = HourlyEmployee("Lee", "Johnson", 25, 50)
     my_company.add_employee(employee2)
-    employee3 = Employee("Jane", "Williams", 59000)
+    employee3 = CommisionEmployee("Jane", "Williams", 30000, 5, 200)
     my_company.add_employee(employee3)
 
     my_company.display_employees()

@@ -1,7 +1,7 @@
 #creating a company class to manage and write their weekly paychecks.
 #To do that , we will also need an employee class.
 
-class Salary_Employee():
+class Employee():
     def __init__(self, fname, lname, salary):
         self.fname = fname
         self.lname = lname
