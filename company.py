@@ -1,4 +1,4 @@
-#since we want our compny class to have access to the Employee class, we will need to import it.
+#since we want our Companyclass to have access to the Employee class, we will need to import it.
 from employee import Employee, SalaryEmployee, HourlyEmployee, CommisionEmployee
 
 class Company():
