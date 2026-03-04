@@ -13,3 +13,5 @@ XML - Extensible Markup Language
 HTTP - Hypertext Transfer Protocol
 HTTPS - Hypertext Transfer Protocol Secure
 CRUD - Create Read Update Delete
+ML-Machine Learning
+AI-Artificial Intelligence
