@@ -7,7 +7,7 @@ expenses = []
 #asking how many expenses the user want to enter
 num_expenses = int(input("How many expenses you want to enter? \n"))
 
-for i  in range(num_expenses): #range(7) -> this will generate a sequence of numbers from 0 to 6, it will run the loop 7 times.
+for i in range(num_expenses): #range(7) -> this will generate a sequence of numbers from 0 to 6, it will run the loop 7 times.
     expenses.append(float(input("Enter your expense: \n")))
 
 total = sum(expenses)
