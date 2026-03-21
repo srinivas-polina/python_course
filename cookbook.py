@@ -6,6 +6,7 @@ def list_recipes():
     # I am looping through each recipe and printing its name
     for recipe in recipes:
         print(recipe["name"])
+        break
 
 # I am defining a function to search recipes by name
 def query_recipes():
@@ -82,7 +83,7 @@ def find_by_ingredients():
 # I am defining the main menu function
 def main():
     while True:
-        print("\n1) List recipes")
+        print("1) List all recipes")
         print("2) Search by name")
         print("3) Search by ingredients")
         print("4) Exit")
